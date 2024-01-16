@@ -1,0 +1,9 @@
+Select * from superstore
+order by price;
+
+select AVG(price)
+from superstore;
+
+select sum(price),category
+from superstore
+where category="Kitchen Supplies";
